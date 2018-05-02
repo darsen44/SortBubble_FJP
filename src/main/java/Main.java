@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Time taken for sorting with FJP: " + (endTime - startTime) + " millis");
         int[] array2 = Sort.fillArray(MyArrays.HUNDRED_THOUSAND);
         startTime = System.currentTimeMillis();
-        Sort.bubbleSort(Sort.fillArray(MyArrays.HUNDRED_THOUSAND), 0, Counts.HUNDRED_THOUSAND - 1);
+        Sort.bubbleSort(array2, 0, Counts.HUNDRED_THOUSAND - 1);
         endTime = System.currentTimeMillis();
         System.out.println("Time taken for sorting without FJP: " + (endTime - startTime) + " millis");
 
