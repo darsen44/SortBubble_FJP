@@ -40,13 +40,11 @@ public class Sort extends RecursiveAction {
             if (ar1[i] < ar2[j]) {
                 array[k] = ar1[i];
                 i++;
-                k++;
             } else {
                 array[k] = ar2[j];
                 j++;
-                k++;
             }
-
+            k++;
         }
     }
 
